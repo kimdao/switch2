@@ -1,0 +1,39 @@
+.testimontials{
+    padding-bottom: 40px;
+    .header-test{
+        text-align: center;
+        h2{
+            padding-top: 40px;
+        }
+        hr{
+            border: 2px solid #828181;
+            width: 40px;
+        }
+    }
+    .comment{
+        .slider {
+            text-align: center;
+            font-size: 16px;
+            .herp{
+                text-align: center;
+                .right{
+                    text-align: right;
+                    padding-right: 0px;
+                }
+                img{
+                    border: 1px solid;
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+                .left{
+                    text-align: left;
+                }
+            }
+            
+        }
+        .carousel-control-next, .carousel-control-prev{
+            color: gray;
+            font-size: 30px;
+        }
+    }  
+}

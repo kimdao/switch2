@@ -1,0 +1,30 @@
+.banner{
+    position: relative;
+    background-image: url("/images/banner.jpg");
+    max-width: 100%;
+    background-size: cover;
+    text-align: center;
+    .content h1{
+        color: $white;
+        padding-top: 270px;
+    }
+    .content a{
+        text-decoration-line: none;
+        color: #ffff;
+    }
+    .content button{
+        margin-top: 30px;
+        background: $green;
+        border-radius: 40px;
+        color: $white;
+        border: 0px;
+        width: 210px;
+        height: 50px;
+        font-size: 21.89px;
+    }
+    .down button{
+        margin-top: 200px;
+        border-radius: 40px;
+        opacity: 0.8;
+    }
+}

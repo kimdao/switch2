@@ -1,0 +1,29 @@
+.lorem{
+    text-align: center;
+    margin-top: 40px;
+    .header-lorem{
+        text-align: center;
+    }
+
+    hr{
+        border: 2px solid #828181;
+        width: 40px;
+    }
+    .row{
+        .img-lorem{
+            margin-bottom: 30px;
+            width: 140px;
+            height: 140px;
+            border: 0px;
+            border-radius: 20px;
+        }
+        .button-lorem button{
+            border: 0px;
+            border-radius: 30px;
+            color: $white;
+            background: $green;
+            text-decoration-line: none;
+            margin-bottom: 70px;
+        }
+    }
+}
